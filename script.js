@@ -1,8 +1,10 @@
-var sideA = 4;
-var sideB = 4;
+var tempInF = 200;
+var tempInCel = (tempInF - 32) * 5/9;
+console.log(tempInCel + "deg celcius");
 
-if(sideA == sideB ) {
-    console.log("it is a square");
-}else {
-    console.log (" it is a retangle");
+
+if(tempInCel> 35) {
+    console.log(" ghar se bahar mat nikalna")
+} else {
+    console.log(" ghar se bahar nikal sakte ho")
 }
