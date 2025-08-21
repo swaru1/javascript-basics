@@ -1,10 +1,11 @@
-var tempInF = 200;
-var tempInCel = (tempInF - 32) * 5/9;
-console.log(tempInCel + "deg celcius");
+var marks = 58;
 
-
-if(tempInCel> 35) {
-    console.log(" ghar se bahar mat nikalna")
+if (marks > 80) {
+  console.log("you got A+");
+} else if (marks > 70) {
+  console.log(" you got B+");
+} else if (marks > 60) {
+  console.log(" you got c+");
 } else {
-    console.log(" ghar se bahar nikal sakte ho")
+  console.log("fail");
 }
