@@ -1,11 +1,9 @@
-var marks = 58;
+var age = Number(prompt("enter your age"));
 
-if (marks > 80) {
-  console.log("you got A+");
-} else if (marks > 70) {
-  console.log(" you got B+");
-} else if (marks > 60) {
-  console.log(" you got c+");
-} else {
-  console.log("fail");
+if( age > 18) {
+  console.log("you can go to oyo")
 }
+else {
+  console.log("you can go to oyo after " + (18 - age) + " years" )
+}
+
