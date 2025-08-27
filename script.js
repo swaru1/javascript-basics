@@ -1,5 +1,4 @@
-// ask the user for a number and print all numbers down to 1 in descending order. if the number is negative, print "invalid input".-------------
-
+// ask the user for a number and print all numbers down to 1 in descending order. if the number is negative, print "invalid input".=================
 /* var num = Number(prompt("enter a number")); */
 
 /* var num = 15;
@@ -52,10 +51,9 @@ if (!success) {
     console.log("Access denied");
 } */
 
-
 // ask the user for a number and print numbers up to that number. If a number is a multiple of 3, print "sheriyans" if a multiple of 5 print "coding" and if both, print "Sheriyans coding school".---------------------------------------------------------------------------------------------
 
-let num = 20;
+/* let num = 20;
 for (let i = 1; i<num ; i++) {
     if ( i % 3 == 0 && i % 5 == 0) {
         console.log('> sheriyans coding school');
@@ -66,7 +64,7 @@ for (let i = 1; i<num ; i++) {
     } else {
         console.log(i)
     }
-}
+} */
 
 //Ask the user for a number and print all prime numbers up to that number.-------------------------------------------------------------------------
 
@@ -142,14 +140,55 @@ console.log(factorial); */
 //ask the user for a sentence and count how many vovels (a e i o u) are present ----------------------------------------------------------------
 /* var str = prompt('enter a sentence') */
 
-/* var str = "swaraj";
+/* var str = "a random sentence";
 
 count = 0;
 
-for ( let i = 0; i<str.length ; i++) {
-    if (str[i] == 'a' || str[i] =='e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u') {
+for ( let i = 0; i < str.length ; i++) {
+    if (str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u') {
         count++;
     }
 }
 
 console.log(count); */
+
+//===================================================================[OR]=====================================================================
+/* var str = "A random Sentence";
+var str = str.toLowerCase();
+var v_count = 0;
+
+for (let i = 0; i < str.length; i++) {
+  let ch = str[i];
+  switch (ch) {
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+        v_count++;
+        break;
+    default:
+  }
+}
+
+console.log(v_count); */
+
+/* function add(a, b) {
+    console.log(a + b)
+}
+add( 10, 20);
+
+function sq(a) {
+    console.log(a*a)
+}
+sq(10);
+
+function mul(a, b) {
+    console.log(a * b)
+}
+mul( 10, 2);
+
+function cube(a) {
+    console.log(a*a*a)
+}
+cube(2); */
