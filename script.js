@@ -69,12 +69,13 @@ for (let i = 1; i<num ; i++) {
 //Ask the user for a number and print all prime numbers up to that number.-------------------------------------------------------------------------
 
 /* let num = Number(prompt('enter a number')); */
-/* let num = 20;
+let num = 20;
 
-for ( let i = 2; i <= num; i++) {
-    let isPrime = true;
-    for (let j = 2; j < i; j++) {
-        if (i % j == 0) {
+for ( let i = 2; i <= num; i++) {  
+    let isPrime = true;               
+    for (let j = 2; j < i; j++) {   
+
+        if (i % j == 0) {  
             isPrime = false;
             break;
         }
@@ -82,7 +83,7 @@ for ( let i = 2; i <= num; i++) {
     if (isPrime) {
         console.log(i);
     }
-} */
+}
 
 //Ask the user for a string and print it in reverse. ----------------------------------------------------------------------------------------------
 
