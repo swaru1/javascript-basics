@@ -1,23 +1,12 @@
-function a1() {
-    console.log('hello 1');
+/* Write a function list that takes an array of words and returns a string by concatenating the words in the array, separated by commas and - the last word - by an 'and'. An empty array should return an empty string.
+
+Example: list(['Huey', 'Dewey', 'Louie']) should return 'Huey, Dewey and Louie'. */
+
+function list(arr) {
+    let last = arr[arr.length - 1]; 
+    arr.pop();  // remove last element
+    let newarr = arr.join(', '); 
+    console.log(newarr + " and " + last);
 }
 
-var a2 = function a2() {
-    console.log('hello 2');
-    
-}
-
-
-var a3 = () => {
-    console.log('hello 3');
-    
-}
-
-var a4 = ()=> console.log('hello 4');
-
-a1();
-a2();
-a3();
-a4();
-
-
+list(['huey', 'dewey', 'louie']);
