@@ -1,41 +1,47 @@
-var phones = [
+var arr = [
     {
-        brand: 'Samsung',
-        model: 'f62',
-        price: 23000,
-        isAvialable: true,
-        colors: ['laser green', 'cyan', 'black'],
+        user: 'Salmon',
+        age: 60,
+        skills: ['driving', 'hunting', 'fighting'],
+        spouse:{
+            user:'kat',
+            skills:['dancer', 'slice ad']
+        },
+        dialouge: ()=> {
+            return 'swagat nahi karoge humara'
+        }
     },
-    {
-        brand: 'Iqoo',
-        model: 'Z5',
-        price: 19000,
-        isAvialable: true,
-        colors: ['blue', 'crimson', 'metal grey'],
+     {
+        user: 'Sharukh',
+        age: 60,
+        skills: ['movies', 'songs', 'buisness', 'kkr management'],
+        spouse:{
+            user:'gauri',
+            skills:['housewife']
+        },
+        dialouge: ()=> {
+            return 'kkkkkkkkkkkk kiran'
+        }
     },
-    {
-        brand: 'Samsung',
-        model: 'Galaxy A17',
-        price: 18000,
-        isAvialable: true,
-        colors: ['black', 'white', 'skyblue'],
+     {
+        user: 'virat',
+        age: 60,
+        skills: ['medeling', 'coverdrive', 'comedy', 'dancing', 'chhole bhature'],
+        spouse:{
+            user:'anushka',
+            skills:['modeling', 'bhakti', 'acting']
+        },
+        dialouge: ()=> {
+            return 'benstrokes'
+        }
     },
-    {
-        brand: 'Nothing',
-        model: 'Phone 3A',
-        price: 18000,
-        isAvialable: true,
-        colors: ['cream', 'silver',],
-    },
-    {
-        brand: 'Xiaomi',
-        model: '14 civi',
-        price: 18000,
-        isAvialable: true,
-        colors: ['indigo', 'Navy',],
-    },
+
 ]
 
-phones.forEach(function(elem){
-    console.log(elem);
+arr.forEach(function(e, i){
+    /* var length = e.skills.length-1 */
+    console.log('user skill: ', e.skills[e.skills.length-1])
+    console.log('dialouge: ', e.dialouge())
+    console.log('spouse skill: ', e.spouse.skills[0])
+    console.log('==============================')
 });
